@@ -18,7 +18,7 @@ class Student
       VALUES(?, ?)
     SQL
 
-    
+    DB[:conn]
   end
 
 end
