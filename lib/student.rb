@@ -36,9 +36,9 @@ class Student
       VALUES(?, ?)
     SQL
 
-    @id =
+    DB[:conn].execute(sql)
 
-    DB[:conn]
+      @id =
   end
 
 end
