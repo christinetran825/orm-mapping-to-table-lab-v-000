@@ -12,6 +12,10 @@ class Student
     @grade = grade
   end
 
+  def create_table
+
+  end
+
 end
 
 # describe "Student" do
