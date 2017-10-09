@@ -16,14 +16,14 @@ class Student
 
   end
 
-  def self.save
-    sql <<- SQL
-      INSERT INTO students (name, grade)
-      VALUES(?, ?)
-    SQL
-
-    DB[:conn]
-  end
+  # def self.save
+  #   sql <<- SQL
+  #     INSERT INTO students (name, grade)
+  #     VALUES(?, ?)
+  #   SQL
+  #
+  #   DB[:conn]
+  # end
 
 end
 
