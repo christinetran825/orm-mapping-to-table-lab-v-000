@@ -13,6 +13,10 @@ class Student
   end
 
   def self.create_table
+
+  end
+
+  def self.save
     sql <<- SQL
       INSERT INTO students (name, grade)
       VALUES(?, ?)
