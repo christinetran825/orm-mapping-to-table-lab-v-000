@@ -37,22 +37,12 @@ class Student
   end
 
   def self.create(name:, grade:)
-    
+
   end
 
 
 end
 
-#
-#   describe "#save" do
-#     it 'saves an instance of the Student class to the database' do
-#       Student.create_table
-#       josh.save
-#       expect(josh.id).to eq(1)
-#       expect(DB[:conn].execute("SELECT * FROM students")).to eq([[1, "Josh", "9th"]])
-#     end
-#   end
-#
 #   describe ".create" do
 #     before(:each) do
 #       Student.create_table
