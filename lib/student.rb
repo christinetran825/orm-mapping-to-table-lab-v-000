@@ -37,7 +37,7 @@ class Student
   end
 
   def create
-
+    Student.create(name:, grade:)
   end
 
 
