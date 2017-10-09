@@ -38,7 +38,7 @@ class Student
 
     DB[:conn].execute(sql)
 
-      @id =
+    @id = DB[:conn].execute
   end
 
 end
