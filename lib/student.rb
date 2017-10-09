@@ -31,7 +31,7 @@ class Student
     sql <<- SQL
       INSERT INTO students(name, grade)
       VALUES (?, ?)
-    SQL
+      SQL
 
     DB[:conn].execute(sql)
 
